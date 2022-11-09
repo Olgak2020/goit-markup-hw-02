@@ -3,17 +3,18 @@
     --text-color: #757575;
     --accent-color: #2196F3;
     --secondary-title-color: #000000;
-    --primary-background-color: #F5F5F5;
-    --background-color: #F5F4FA;
-    --secondary-background-color: #2F303A;
+    --primary-bg-color: #F5F5F5;
+    --bg-color: #F5F4FA;
+    --secondary-bg-color: #2F303A;
     --title-white-color:   #FFFFFF;
 }
 
 body{
-    background:var(--primary-background-color) ;
+    background:var(--primary-bg-color) ;
     color:var(--text-color);
 
-    font-family: Roboto, sans-serif;}
+    font-family: Roboto, sans-serif;
+}
 
 
     /* колір основного тексту color: #212121; */
@@ -69,7 +70,7 @@ body{
 }  
 /* шапка -hero*/
 .section-hero{
-    background:var(--secondary-background-color) ;
+    background:var(--secondary-bg-color) ;
 }
 .title-hero{
     color: var(--title-white-color);
@@ -107,7 +108,7 @@ body{
 }
 /* section-team */
 .section-team{
-    background-color:var(--background-color) ;
+    background-color:var(--bg-color) ;
 }
 .team-title{
 color:var(--title-color) ;
@@ -134,7 +135,6 @@ color:var(--title-color) ;
 
 .team-text{
  
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
@@ -142,13 +142,13 @@ letter-spacing: 0.03em;
 }
 /* footer */
 .footer {
-    background-color:var(--secondary-background-color) ;
+    background-color:var(--secondary-bg-color) ;
     text-decoration: none;
 }
 
 /* portfolio-filters */
 .portfolio-filter{
-    background-color:var(--background-color) ;
+    background-color:var(--bg-color) ;
     color:var(--title-color) ;
 
 }
@@ -177,7 +177,7 @@ text-decoration: none;
 /* button */
 .button{
     color:var(--title-color) ;
-    background:var(--background-color) ;
+    background:var(--bg-color) ;
     
     font-weight: 500;
     font-size: 16px;
