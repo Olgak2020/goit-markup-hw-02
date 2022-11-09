@@ -5,8 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <h1>Портфоліо</h1>
+<body class="page">
+    <header class="page-header">
+       <!-- верхня лінія -->
+       <nav class="header-nav">
+       <a href="./index.html" class="logo">
+         <span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+        <ul class="nav list">
+            <li><a href="./studio.html" class="nav-studia link">Студія</a></li>
+            <li><a href="./portfolio.html" class="nav-portfolio link">Портфоліо</a></li>
+            <li><a href="" class="nav-kontakt link">Контакти</a></li>
+                </ul>
+       </nav>
+        <ul class="auth-nav list link">
+        <li><a href="mailto:info@devstudio.com" class="link" >info@devstudio.com</a></li>
+        <li><a href="tel+380961111111" class="link">+38 096 111 11 11</a></li>
+         </ul> 
+    </header>
+    <main>
+<!-- Портфоліо -->
+<section class="section-potfolio">
+    <h2>portfolio</h2>
+       <!-- filters -->
+       <ul class=" portfolio-filter list">
+        <li><button type="button" class="link button">Усі</button>
+        </li>
+        <li><button type="button" class="link button">Веб-сайти</button>
+        </li>
+        <li><button type="button" class="link button">Додатки</button>
+        </li>
+        <li><button type="button" class="link button">Дизайн</button>
+         </li>
+        <li><button type="button" class="link button">Маркетинг</button>
+        </li>
+      </ul>
+      
+           <ul class="list">
+      <!-- project1 -->
+             <li> <a href="">
+                   <img src="./images/imgone.jpg" width="370" alt="два фото з жінками і одне фото з чоловіком">
+            <h3 class="project-title">Технокряк</h3>
+            <p>Веб-сайт</p></a>
+            </li>
+         <!-- project2 -->
+                <li><a href="">
+                <img src="./images/imgtwo.jpg" width="370" alt="два чоловіка з м'ячем">
+             <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
+             <p class="project-text">Дизайн</p></a>
+            </li>
+        <!-- project3 -->
+                <li> <a href="">
+                <img src="./images/imgthree.jpg" width="370" alt="назва ресторану ">
+                <h3 class="project-title">Ресторан Seafood</h3>
+                <p class="project-text">Додаток</p></a>
+             </li>
+        <!-- project4 -->
+                <li> <a href="">
+                <img src="./images/imgfour.jpg" width="370" alt="навушники">
+                <h3 class="project-title">Проєкт Prime</h3>
+                <p class="project-text">Маркетинг</p></a>
+             </li>
+        <!-- project5 -->
+                <li> <a href="">
+                <img src="./images/imgfive.jpg" width="370" alt="лежать дві коробки">
+             <h3 class="project-title">Проєкт Boxes</h3>
+            <p class="project-text">Додаток</p></a>
+             </li>
+         <!-- project6 -->
+                <li> <a href="">
+                <img src="./images/imgsix.jpg" width="370" alt="монитор стоїть на поверхнї">
+             
+            <h3 class="project-title">Inspiration has no Borders</h3>
+            <p class="project-text">Веб-сайт</p></a>
+             </li>
+             <!-- project7 -->
+                <li> <a href="">
+                <img src="./images/imgseven.jpg" width="370" alt="відкритий журнал">
+             <h3 class="project-title">Видання Limited Edition</h3>
+            <p class="project-text">Дизайн</p></a>
+             </li>
+              <!-- project8 -->
+                <li> <a href="">
+                <img src="./images/imgeight.jpg"  width="370" alt="етикетка бренду">
+             <h3 class="project-title">Проєкт LAB</h3>
+            <p class="project-text">Маркетинг</p></a>
+            </li>
+            <!-- project9 -->
+                <li> <a href="">
+                <img src="./images/imgnine.jpg" width="370" alt="руки на клавіатурі ноутбука">
+             <h3 class="project-title">Growing Business</h3>
+            <p class="project-text">Додаток</p></a>
+         </li>   
+            </ul>
+</section>
+    </main>
+<!--підвал  -->
+<footer class="footer">
+    <a href="./index.html" class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+    <address>
+    <ul class=" auth-nav list">
+      <li>
+         <a href="address">м. Київ, пр-т Лесі Українки, 26</a>
+      </li>
+        <li>
+            <a href="mailto:info@example.com" class="link">info@example.com</a>
+                    </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+    </ul></address>
+</footer>
+    
 </body>
 </html>
