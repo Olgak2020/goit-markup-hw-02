@@ -232,7 +232,7 @@ body{
   text-decoration: none;
   }
 .project-text{
-    
+    color: var(--text-color)
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
